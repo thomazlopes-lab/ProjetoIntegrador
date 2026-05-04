@@ -3,12 +3,12 @@
     margin: 0;
 }
 .corfundo{
-    background-color: #c9cccf;
+    background-color:#eff0ea;
 }
 
 .fontdesq{
     text-align: center;
-    color: #060644;
+    color: #07044f;
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
     font-weight: 900;
@@ -16,9 +16,9 @@
     text-transform: uppercase;
 }
 
-.fontpad{
+p{
     text-align: center;
-    color: #29292a;
+    color: #6a6d88;
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
     font-weight: 400;
