@@ -14,20 +14,120 @@
         .tabela {
             justify-self: center;
         }
+        *{
+                margin: 0 auto;
+                padding: 0;
+            }
+        .menu{
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            height: 40px;
+            margin-top: -5px;
+        }
+        .menu ul{
+            padding: 0;
+            max-width: 500px;
+            text-align: center;
+        }
+        .menu ul li{          
+            background-color: rgb(9, 9, 10);
+            color: white;
+            float: left;
+            width: 100px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+        }
+        .menu ul li:hover{
+            background-color:blue; 
+        }
+        
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+        
+        .menu ul ul ul{
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+        }
+        .menu ul ul li:hover{
+            background-color:rgb(3, 3, 166); 
+        }
+        .menu ul ul ul li:hover{
+            background-color:rgb(2, 2, 88); 
+        }
     </style>
 </head>
 
 <body>
     <header>
-<img src="IMG/Banner.jpg" width="100%">
- </header>
+        <img src="IMG/Banner.jpg" width="100%">
+        <nav class="menu">
+            <ul>
+                <li>index
+                    <ul>
+                        <li>avocado</li>
+                        <li>nacional</li>
+                        <li>importado 
+                            <ul>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Feminino
+                    <ul>
+                        <li>avocado</li>
+                        <li>nacional</li>
+                        <li>importado 
+                            <ul>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>notícias
+                    <ul>
+                        <li>avocado</li>
+                        <li>nacional</li>
+                        <li>importado 
+                            <ul>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>abacaxi
+                    <ul>
+                        <li>avocado</li>
+                        <li>nacional</li>
+                        <li>importado
+                            <ul>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </li>
+        </nav>
+</header>
+<main>
+
+</main>
     <div class="tabela">
-        <table border="0">
+        <table border="0"> 
             <tr>
                 <td><img src="IMG/NIKEMASC03.avif" height="360px"></td>
                 <td><img src="IMG/NIKEMASC02.avif"></td>
                 <td><img src="IMG/NIKEMASC01.avif" height="360px"></td>
                 <td><img src="IMG/NIKEMASC05.avif"></td>
+            </tr>
+            <tr>
+                <td><p>R$ 750,99</p></td>
             </tr>
         </table>
     </div>

@@ -1,14 +1,24 @@
+/*CARACTERÍSTICAS PRINCIPAIS DO SITE*/
 *{
     padding: 0;
     margin: 0;
 }
-.corfundo{
-    background-color: #c9cccf;
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    color: #000000;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .fontdesq{
     text-align: center;
-    color: #060644;
+    color: #07044f;
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
     font-weight: 900;
@@ -16,32 +26,110 @@
     text-transform: uppercase;
 }
 
-.fontpad{
-    text-align: center;
-    color: #29292a;
-    font-family: "Bodoni Moda SC", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    letter-spacing: 1px;
+main{
+    margin-top: 400px;
 }
 
-.button{
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    background-color: rgb(237, 237, 242);    
+/*CSS DO MENU PRINCIPAL*/
+
+
+.menu_top {
+    width: 100%;
+    height: 170px;
+    border-bottom: 3px solid #060644;
+    border-top: 10px solid #060644;
+    background-color: #f1f2ec;
+}
+
+.top_esp {
+    width: 140px;
+    float: left;
     padding: 10px;
 }
 
-.buttonhover{
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(10, 10, 10);
-    background-color: rgb(87, 83, 83);
-    padding: 08px;
+.menu_down {
+    background: #cacaca;
+    height: 50px;
+    text-align: center;
+    margin-top: -10px;
 }
+<<<<<<< HEAD
 .buttonbackg{
     background-color: #4A4E51;
 }
+=======
+
+.clear {
+    clear: both;
+}
+
+.botao{
+    position: relative;
+    top: 19px;
+    border-right: solid 2.3px #aeaeae;
+    border-left: solid 2.3px #aeaeae; 
+    padding: 8px;
+}
+
+.botao:hover{
+    border-right: solid 2.5px #4a4a4a;
+    border-left: solid 2.5px #4a4a4a;
+}
+
+a{
+    color: #07044f;
+}
+a:hover{
+    color: #07044f;
+}
+
+
+
+/*ABERTURA DO SUB MENU*/
+/* Container para alinhar os itens lado a lado */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Garante que o sub-menu saiba de onde "nascer" */
+.item-pai {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilo do Sub-Menu (inicia escondido) */
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Aparece logo abaixo do botão */
+    left: 0;
+    background-color: #cacaca; /* Cor cinza do seu menu_down */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+    padding: 10px 0;
+    border: 1px solid #aeaeae;
+}
+
+/* Links dentro do sub-menu */
+.sub-menu a {
+    color: #07044f; /* Seu azul escuro */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+/* Efeito ao passar o mouse nos links do sub-menu */
+.sub-menu a:hover {
+    background-color: #dcdcdc;
+}
+
+/* A MÁGICA: Mostra o sub-menu quando passar o mouse no item-pai */
+.item-pai:hover .sub-menu {
+    display: block;
+}
+>>>>>>> bc6ab6974f32e54dfee1be179934970e2fdf5d7d
