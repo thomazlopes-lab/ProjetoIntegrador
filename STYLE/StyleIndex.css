@@ -53,11 +53,10 @@ main{
     text-align: center;
     margin-top: -10px;
 }
-<<<<<<< HEAD
+
 .buttonbackg{
     background-color: #4A4E51;
 }
-=======
 
 .clear {
     clear: both;
@@ -126,4 +125,4 @@ a:hover{
 .item-pai:hover .sub-menu {
     display: block;
 }
->>>>>>> bc6ab6974f32e54dfee1be179934970e2fdf5d7d
+
