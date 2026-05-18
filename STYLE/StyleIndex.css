@@ -85,27 +85,24 @@ a:hover{
 
 
 
-/*ABERTURA DO SUB MENU*/
-/* Container para alinhar os itens lado a lado */
+/*menu*/
 .menu-container {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-/* Garante que o sub-menu saiba de onde "nascer" */
 .item-pai {
     position: relative;
     display: inline-block;
 }
 
-/* Estilo do Sub-Menu (inicia escondido) */
 .sub-menu {
     display: none;
     position: absolute;
-    top: 100%; /* Aparece logo abaixo do botão */
+    top: 100%; 
     left: 0;
-    background-color: #cacaca; /* Cor cinza do seu menu_down */
+    background-color: #cacaca; 
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 1000;
@@ -113,9 +110,8 @@ a:hover{
     border: 1px solid #aeaeae;
 }
 
-/* Links dentro do sub-menu */
 .sub-menu a {
-    color: #07044f; /* Seu azul escuro */
+    color: #07044f;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -123,12 +119,10 @@ a:hover{
     border-bottom: 1px solid #dcdcdc;
 }
 
-/* Efeito ao passar o mouse nos links do sub-menu */
 .sub-menu a:hover {
     background-color: #dcdcdc;
 }
 
-/* A MÁGICA: Mostra o sub-menu quando passar o mouse no item-pai */
 .item-pai:hover .sub-menu {
     display: block;
 }
