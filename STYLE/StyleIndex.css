@@ -1,5 +1,5 @@
 /*CARACTERÍSTICAS PRINCIPAIS DO SITE*/
-*{
+*   {
     padding: 0;
     margin: 0;
 }
@@ -27,7 +27,7 @@ p{
 }
 
 main{
-    margin-top: 400px;
+    margin-top: 150px;
 }
 
 /*CSS DO MENU PRINCIPAL*/
@@ -38,7 +38,7 @@ main{
     height: 170px;
     border-bottom: 3px solid #060644;
     border-top: 10px solid #060644;
-    background-color: #f1f2ec;
+    background-color: #b1d209;
 }
 
 .top_esp {
@@ -126,3 +126,26 @@ a:hover{
     display: block;
 }
 
+
+/*CARDs*/
+.meio{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+}
+.item{
+    width: 22%;
+    height: 500px;
+    padding:20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.item img{
+    width: 100%;
+}
+.item button{
+    background-color: #4a4a4a;
+    border-radius: 10px;
+    padding: 10px;
+
+}
