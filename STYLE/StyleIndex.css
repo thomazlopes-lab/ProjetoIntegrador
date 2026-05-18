@@ -55,7 +55,7 @@ main{
 }
 
 .buttonbackg{
-    background-color: #4A4E51;
+    background-color: #8a8a8a;
 }
 
 .clear {
@@ -66,13 +66,13 @@ main{
     position: relative;
     top: 19px;
     border-right: solid 2.3px #aeaeae;
-    border-left: solid 2.3px #aeaeae; 
+    border-left: solid 2.3px #6e6d6d; 
     padding: 8px;
 }
 
 .botao:hover{
-    border-right: solid 2.5px #4a4a4a;
-    border-left: solid 2.5px #4a4a4a;
+    border-right: solid 2.5px #515151;
+    border-left: solid 2.5px #776b6b;
 }
 
 a{
@@ -118,6 +118,10 @@ a:hover{
     border-bottom: 1px solid #dcdcdc;
 }
 
+.sub-menu{
+    margin-top:30px;
+}
+
 .sub-menu a:hover {
     background-color: #dcdcdc;
 }
@@ -144,8 +148,20 @@ a:hover{
     width: 100%;
 }
 .item button{
-    background-color: #4a4a4a;
+    background-color: #b4b4b4;
     border-radius: 10px;
     padding: 10px;
-
+    transition: 0.2s;
+    cursor: pointer;
 }
+body{
+    background:
+    radial-gradient(circle at top, #5f5e5e 0%, #07044f 60%);
+}
+h2{
+    color: aliceblue;
+}
+button:hover {
+    background-color: white;
+}
+
