@@ -1,13 +1,14 @@
 /*CARACTERÍSTICAS PRINCIPAIS DO SITE*/
-*   {
+* {
     padding: 0;
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-p{
+p {
     text-align: center;
     color: #000000;
     font-family: "Bodoni Moda SC", serif;
@@ -16,7 +17,7 @@ p{
     letter-spacing: 1px;
 }
 
-.fontdesq{
+.fontdesq {
     text-align: center;
     color: #07044f;
     font-family: "Bodoni Moda SC", serif;
@@ -26,8 +27,16 @@ p{
     text-transform: uppercase;
 }
 
-main{
+main {
     margin-top: 150px;
+}
+
+body {
+    background-color: #C4E2F5;
+}
+
+footer {
+    background-color: white;
 }
 
 /*CSS DO MENU PRINCIPAL*/
@@ -38,7 +47,6 @@ main{
     height: 170px;
     border-bottom: 3px solid #060644;
     border-top: 10px solid #060644;
-    background-color: #b1d209;
 }
 
 .top_esp {
@@ -48,23 +56,28 @@ main{
 }
 
 .menu_down {
-    background: #cacaca;
+    background: #E2E2E2;
     height: 50px;
     text-align: center;
     margin-top: -10px;
+<<<<<<< HEAD
 }
 
 .buttonbackg{
     background-color: #8a8a8a;
+=======
+    border-bottom: solid 2px #111111;
+>>>>>>> ea18d151ab4cc401611a9e7624860e53418fa960
 }
 
 .clear {
     clear: both;
 }
 
-.botao{
+.botao {
     position: relative;
     top: 19px;
+<<<<<<< HEAD
     border-right: solid 2.3px #aeaeae;
     border-left: solid 2.3px #6e6d6d; 
     padding: 8px;
@@ -73,22 +86,34 @@ main{
 .botao:hover{
     border-right: solid 2.5px #515151;
     border-left: solid 2.5px #776b6b;
+=======
+    border-right: solid 2.3px #212529;
+    border-left: solid 2.3px #212529;
+    padding: 8px;
 }
 
-a{
-    color: #07044f;
+.botao:hover {
+    border-right: solid 2.5px #FF5E00;
+    border-left: solid 2.5px #FF5E00;
+>>>>>>> ea18d151ab4cc401611a9e7624860e53418fa960
 }
-a:hover{
-    color: #07044f;
+
+a {
+    color: #212529;
+}
+
+a:hover {
+    color: #FF5E00;
 }
 
 
 
-/*menu*/
+
+/*SUB MENU*/
 .menu-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .item-pai {
@@ -99,23 +124,23 @@ a:hover{
 .sub-menu {
     display: none;
     position: absolute;
-    top: 100%; 
+    top: 50px;
     left: 0;
-    background-color: #cacaca; 
+    background-color: #E2E2E2;
     min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    padding: 10px 0;
-    border: 1px solid #aeaeae;
+    padding: 20px;
+    border: 1px solid #111111;
 }
 
 .sub-menu a {
-    color: #07044f;
+    color: #111111;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     font-size: 14px;
-    border-bottom: 1px solid #dcdcdc;
+    border-bottom: 1px solid #111111;
 }
 
 .sub-menu{
@@ -123,7 +148,8 @@ a:hover{
 }
 
 .sub-menu a:hover {
-    background-color: #dcdcdc;
+    color: #FF5E00;
+
 }
 
 .item-pai:hover .sub-menu {
@@ -132,28 +158,37 @@ a:hover{
 
 
 /*CARDs*/
-.meio{
+.meio {
     display: flex;
     height: 500px;
     justify-content: space-around;
 }
-.item{
+
+.item {
     width: 22%;
     height: 500px;
-    padding:20px;
+    padding: 20px;
     text-align: center;
     border-radius: 10px;
 }
-.item img{
+
+.item img {
     width: 100%;
 }
+<<<<<<< HEAD
 .item button{
     background-color: #b4b4b4;
+=======
+
+.item button {
+    background-color: #4a4a4a;
+>>>>>>> ea18d151ab4cc401611a9e7624860e53418fa960
     border-radius: 10px;
     padding: 10px;
     transition: 0.2s;
     cursor: pointer;
 }
+<<<<<<< HEAD
 body{
     background:
     radial-gradient(circle at top, #5f5e5e 0%, #07044f 60%);
@@ -165,3 +200,26 @@ button:hover {
     background-color: white;
 }
 
+=======
+
+
+/*FOOTER*/
+footer {
+    height: 100px;
+    display: flex;
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.informacao {
+    width: 260px;
+    height: 50px;
+    background: rgb(237, 167, 167);
+}
+>>>>>>> ea18d151ab4cc401611a9e7624860e53418fa960
